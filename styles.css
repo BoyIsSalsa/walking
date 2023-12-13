@@ -1,0 +1,21 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.game {
+  width: 800px; /* Adjust to your preference */
+  height: 600px; /* Adjust to your preference */
+  margin: auto;
+  border: 1px solid #000;
+  position: relative;
+  overflow: hidden;
+}
+
+#player {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  position: absolute;
+}
